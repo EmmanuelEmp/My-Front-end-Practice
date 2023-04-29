@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:rgb(138, 138, 134); ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logohead h2{
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    font-weight: normal;
+}
+.logohead h4{
+    text-align: center;
+    font-weight: normal;
+}
+
+.wrapper .container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f6;
+    /* background-color: #2a2a28; */
+    border: 1px;
+    box-shadow: 1px 1px 4px 1px rgba(98, 97, 97, 0.4);
+    align-self: center;
+    padding: 50px;
+    margin: 25px;
+
+}
+div .circle img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    
+
+    color: rgb(179, 175, 175);
+}
+.container>div .input{
+    margin: 7px;
+    padding: 10px 30px;
+    box-shadow: inset 1px 1px 2px 1px #8888;
+    border-radius: 1px;
+    /* justify-content: space-between; */
+    border-style: none;
+    outline: none;
+
+}
+.sign input{
+    margin: 7px;
+    color: #ffff;
+    width: 95%;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color:rgb(43, 101, 195);
+    border-radius: 3px;
+    border-style: none;
+    outline: none;
+
+}
+
+
+.help a{
+
+    text-decoration: none;
+    font-size: small;
+    padding-left: 40px;
+    color: rgb(43, 101, 195);;
+}
+.check label{
+    color: rgb(92, 92, 89);
+    font-size: small;
+    padding-right: 20px;
+}
+
+.create .account {
+    font-weight: normal;
+    padding-bottom: 50px;
+}
+
+.create .account a{
+    text-decoration: none;
+    color:rgb(43, 101, 195);;
+}
